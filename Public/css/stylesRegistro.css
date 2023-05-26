@@ -47,6 +47,7 @@ nav .logo img {
 }
 
 .login{
+    
     width: 100%;
     height: 100vh;
     background-color: none;
@@ -70,11 +71,18 @@ nav .logo img {
 }
 
 .login .form-container .form{
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
 }
 
 .login .form-container .form .label{
+    font-size: var(--font-sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+
+}
+.labelr{
     font-size: var(--font-sm);
     font-weight: bold;
     margin-bottom: 4px;
@@ -92,6 +100,18 @@ nav .logo img {
     
 
 }
+.inputr{
+    background-color: var(--color-white);
+    border: none;
+    border-radius: 8px;
+    height: 28px;
+    font-size: var(--font-sm);
+    padding: 4px;
+    margin-bottom: 12px;
+    
+
+}
+
 
 .login .form-container .form .primary-btn{
     background-color: var(--color-fesc);
@@ -156,10 +176,14 @@ nav .logo img {
     }
 }
 
-.rol{
+.rolr{
     font-family: Arial Black;
     font-size: small;
     margin-top: -80px;
+}
+.inputr2{
+    font-family: Arial Black;
+    font-size: small;
 }
 
 .acronimo{
@@ -170,4 +194,3 @@ nav .logo img {
     margin-top: -40px;
     margin-right: 10px;
 }
-
